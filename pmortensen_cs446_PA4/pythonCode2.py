@@ -17,4 +17,4 @@ try:
         reader = csv.DictReader(csvfile)
 except:
     pass
-#modify this code so that it also generates self signed certificate and keys
+# modify this code so that it also generates self-signed certificate and keys
