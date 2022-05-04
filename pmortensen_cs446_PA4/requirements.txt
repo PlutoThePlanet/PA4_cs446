@@ -1,0 +1,16 @@
+pip3 _____
+
+
+In requirements.txt provide a list of all of the imports that the supplied code needs to install
+	(do not include any built in python packages in this file)
+	(for example, I might import math, but math is built into python, so I wouldn't include it in requirements.txt). 
+Each import should be on its own line. Be sure to use the pip3 install name for the import
+	(not doing so will result in pip3 being unable to find the required package.)
+	(For example, in python, we import openssl, but the pip3 install name for it is pyOpenSSL. Trying to do pip3 install openssl will not do what you want; instead you would do pip3 install pyOpenSSL and then import openssl to your script. Do not install any extra packages, only the ones required to run your supplied code.
+
+
+
+from PIL import Image, ImageDraw # pip install Pillow
+import csv# native to pythin, not needed to import
+from scipy import constants
+import numpy as np
